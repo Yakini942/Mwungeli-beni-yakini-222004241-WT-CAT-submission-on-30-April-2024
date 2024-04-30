@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>home page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="new.css">
+<style media="screen">
+<style>
+      /* Reset default margin and padding */
+      body, html {
+          font-family: 'Comic Sans MS', cursive;
+      }
+
+      /* Container to center content */
+      .container {
+          border-left: 2px solid #ddd;
+          overflow: hidden;
+          max-width: 960px;
+          margin: 0 auto;
+          padding-top: 5%;
+          box-sizing: border-box;
+      }
+
+      /* Card styles */
+      .card {
+          padding: 10px 10px;
+          overflow: hidden;
+          border: 1px solid #ddd;
+          border-radius: 8px;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+          transition: box-shadow 0.3s ease;
+          margin-bottom: 20px;
+          width: 100%; /* Full width within container */
+          box-sizing: border-box; /* Include padding and border in width */
+      }
+
+      .card:hover {
+          box-shadow: 0 4px 8px #333;
+      }
+
+      .card-title {
+          color: #333;
+          font-size: 25px;
+      }
+
+      .card-text {
+          color: #666;
+          font-size: 17px;
+
+      }
+      a{
+        text-decoration: none;
+      }
+      .btn-primary {
+          display: inline-block;
+          padding: 10px 20px;
+          background-color: #007bff;
+          color: #fff;
+          text-decoration: none;
+          float: right;
+          border-radius: 5px;
+          transition: background-color 0.3s ease;
+      }
+
+      .btn-primary:hover {
+          background-color: #0056b3;
+      }
+
+      /* Two-column layout */
+      .column {
+          width: 50%;
+          float: left;
+          padding: 0 15px;
+          box-sizing: border-box;
+      }
+
+      /* Clearfix to prevent columns from collapsing */
+      .row::after {
+          content: "";
+          display: table;
+          clear: both;
+      }
+</style>
+  </head>
+  <body style="background-color: #5F0000;">
+
+  <div class="topnav">
+  <a  href="Dashboard.html">Dashboard</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a href="profile.html" class="split"><i class="fa fa-fw fa-user"></i>Profile</a>
+</div>
+
+<main>
+<div class="container">
+        <div class="row">
+            <div class="column"> <!-- Each column takes up 4 units on medium-sized screens and above -->
+            <a href="#">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Courses</h5>
+                        <p class="card-text">This is a sample flash card. You can add any content here.</p>
+                        <a href="#" class="btn-primary">View More</a>
+                    </div>
+                </div>
+              </a>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">TimeTable</h5>
+                        <p class="card-text">This is a sample flash card. You can add any content here.</p>
+                        <a href="#" class="btn btn-primary">view More</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Assignments</h5>
+                        <p class="card-text">This is a sample flash card. You can add any content here.</p>
+                        <a href="#" class="btn btn-primary">view More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Study Material</h5>
+                        <p class="card-text">This is a sample flash card. You can add any content here.</p>
+                        <a href="#" class="btn btn-primary">view More</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+        <div class="row">
+            <div class="column">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Tests</h5>
+                        <p class="card-text">This is a sample flash card. You can add any content here.</p>
+                        <a href="#" class="btn btn-primary">view More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Marks</h5>
+                        <p class="card-text">This is a sample flash card. You can add any content here.</p>
+                        <a href="#" class="btn btn-primary">view More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>staff login</title>
+    <style media="screen">
+    * {box-sizing:border-box}
+    input, button{
+      border:none;
+      background: none;
+    }
+    h1{
+        font-family: 'Nunito', sans-serif;
+    }
+    label{
+      display: block;
+      width: 260px;
+      margin: 25px auto 0;
+      text-align: center;
+      font-family: 'Nunito', sans-serif;
+    }
+    form{
+      position: relative;
+      width: 640px;
+      height: 100%;
+      padding: 50px 30px;
+      -webkit-transition:-webkit-transform 1.2s ease-in-out;
+      transition: -webkit-transform 1.2s ease-in-out;
+      transition: transform 1.2s ease-in-out;
+      transition: transform 1.2s ease-in-out, -webkit-transform 1.2s ease-in-out;
+    }
+    .container{
+      overflow: hidden;
+      position: relative;
+      width: 500px;
+      height: 700px;
+      background:#c9def0;
+      box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+      border-radius: 15px;
+      text-align: center;
+    }
+    input{
+      text-align: center;
+      width: 50%;
+      margin-top: 10px;
+      font-size: 13px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid rgba(109, 93, 93, 0.4);
+      font-family: 'Nunito', MV Boli;
+    }
+    button{
+      display: block;
+      margin: 0 auto;
+      width: 260px;
+      height: 36px;
+      border-radius: 30px;
+      color: #fff;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .submit{
+      margin-top: 40px;
+      margin-bottom: 30px;
+      text-transform: uppercase;
+      font-weight: 600;
+      font-family: 'Nunito', sans-serif;
+      background: rgb(131, 128, 128);
+      transition: .5s;
+    }
+    .submit:hover{
+      transition: .5s;
+      background: #000;
+    }
+    </style>
+  </head>
+  <body>
+    <center>
+    <form class="modal-content" action="modd.php" method="post">
+    <div class="container">
+        <h1>Sign In</h1>
+          <label for="email">UserName</label>
+                <input type="text" placeholder="Enter Email" name="username" required>
+            <label for="email">Email</label>
+                  <input type="text" placeholder="Enter Email" name="email" required>
+              <label for="email">full name</label>
+                <input type="text" placeholder="Enter Email" name="fullname" required>
+            <label for="psw">Password</label>
+                <input type="password" placeholder="Enter Password" name="password" required><br>
+            <button class="submit" type="submit">Singin</button>
+            </div>
+
+            </form>
+
+          </center>
+  </body>
+</html>
